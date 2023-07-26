@@ -1,0 +1,82 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.heading {
+    /* hex */
+    /* RGB */
+    color: #456 !important;
+    background-color: yellow;
+    /* absolute units */
+    /* relative units */
+    /* Responsive app dev */
+    /* mobile first */
+    width: 100%;
+    height: 200px;
+    font-size: 25px;
+    font-weight: 100;
+    /* shorthand */
+    border: 1px solid green;
+
+    /* margin-left: 100px;
+    margin-top: 50px;
+    margin-right: 10px;
+    margin-bottom: 20px; */
+
+    /* margin: 10px 10px 20px 100px; */
+    /* border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black; */
+
+    /* padding: 100px 0 0 50px; */
+}
+
+#my-heading {
+    color: red;
+}
+
+ul {
+    list-style-type: circle;
+}
+
+ul li {
+    padding: 5px;
+    width: 100px;
+    text-decoration: line-through;
+    text-align: center;
+}
+
+.tbl {
+    width: 100%;
+    border: 1px solid gray;
+}
+
+.tbl thead {
+    background-color: #445566;
+    color: #fff;
+}
+
+.tbl tbody td {
+    border: 1px solid gray;
+    text-align: center;
+}
+
+.div1 {
+    border: 1px solid gray;
+    padding: 10px;
+    width: 50%;
+    display: inline;
+    background: #456;
+    color: white;
+    opacity: 0.5;
+    position: sticky;
+    top: 2%;
+    left: 30%;
+}
+
+.div2 {
+    border: 1px solid gray;
+    padding: 10px;
+    display: inline;
+}

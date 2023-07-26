@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Forms</title>
+    <link href="styles2.css" rel="stylesheet" />
+</head>
+
+<body>
+    <form>
+        <div class="control-container">
+            <label>First name</label>
+            <input class="form-text user-text" type="text" placeholder="Firstname" />
+        </div>
+        <div class="control-container">
+            <label>Last name</label>
+            <input class="form-text" type="text" placeholder="Lastname" />
+        </div>
+        <div class="control-container">
+            <label>Password</label>
+            <input class="form-text" type="password" placeholder="Password" />
+        </div>
+        <div class="control-container">
+            <label>Gender</label>
+
+            <label>Male</label>
+            <input name="gender" type="radio" value="Male" />
+
+            <label>Female</label>
+            <input name="gender" type="radio" value="Female" />
+        </div>
+        <div class="control-container">
+            <label>Gender</label>
+            <select>
+                <option value="">--select--</option>
+                <option value="1">Male</option>
+                <option value="2">Female</option>
+            </select>
+        </div>
+        <div class="control-container">
+            <input class="form-text" type="range" max="100" min="0" />
+        </div>
+        <div class="control-container">
+            <progress max="100" value="50" />
+        </div>
+        <div class="control-container">
+            <input class="btn" type="submit" value="Save" />
+        </div>
+    </form>
+</body>
+
+</html>
