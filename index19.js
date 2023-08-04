@@ -20,6 +20,11 @@
 // 10^9 : 10^9
 // 100: O(sqrt(N)): 10
 // 10000: 100
+// Tier 1: amazon, nextflix, flipkart, 2 - 5L  19L - 1cr. DSA
+// Tier 2: cdk, adp, 7L - 13L 60k - 1.2L
+// Tier 3: infosys, tcs, wipro 3L, 18k, basic programming
+// skills
+// 60L: 3L
 function isPrime(n) {
     if (n === 1) return false;
 
